@@ -19,10 +19,27 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate premium server action
+
+    const formattedMessage = `Hello Gurnoor Plast, I would like to request a quotation:
+
+*Product Interest:* ${formData.product}
+*Neck Size / Specification:* ${formData.neckSize}
+*Name:* ${formData.name}
+*Company Name:* ${formData.company}
+*Phone Number:* ${formData.phone}
+*Email Address:* ${formData.email}
+*Message / Requirements:* ${formData.message}`;
+
+    const encodedMessage = encodeURIComponent(formattedMessage);
+    const whatsappUrl = `https://wa.me/919815532082?text=${encodedMessage}`;
+
     setTimeout(() => {
       setLoading(false);
       setIsSubmitted(true);
+      
+      // Redirect to WhatsApp in a new window/tab
+      window.open(whatsappUrl, '_blank');
+      
       // Reset form
       setFormData({
         name: '',
@@ -33,7 +50,7 @@ const Contact = () => {
         neckSize: '28mm (PCO 1881 / 1810)',
         message: '',
       });
-    }, 1500);
+    }, 1200);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {

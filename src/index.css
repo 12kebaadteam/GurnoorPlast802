@@ -2,15 +2,15 @@
 
 :root {
   /* Premium Light Modern Theme Color Palette */
-  --primary: #ffffff;
-  --secondary: #fafaf9;      /* Warm Alabaster */
+  --primary: #fcfaf5; /* Premium Soft Alabaster/Cream */
+  --secondary: #f3eedf; /* Premium Sand-Ivory */      /* Warm Alabaster */
   --accent: #0d9488;         /* Premium Emerald Teal */
   --accent-dark: #0f766e;    /* Deep Teal */
   --accent-light: #f0fdfa;   /* Soft Mint Wash */
   --text-main: #1c1917;      /* Sleek Stone Dark */
   --text-muted: #57534e;     /* Stone Slate */
   --text-light: #a8a29e;     /* Light Stone Silver */
-  --border: #e7e5e4;         /* Soft warm gray border */
+  --border: #dfdacf; /* Premium Stone Border */         /* Soft warm gray border */
   
   /* Brand Accent Tokens */
   --eco-green: #0f766e;      /* Sustainable Emerald */
@@ -42,12 +42,12 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #e2ded5;
+  background-color: #e8e2d2;
 }
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #e2ded5; /* Darkened premium Warm Sand/Alabaster base */
+  background-color: #e8e2d2; /* Darkened premium Warm Sand/Alabaster base */
   background-image: 
     radial-gradient(at 0% 0%, rgba(13, 148, 136, 0.07) 0px, transparent 50%),
     radial-gradient(at 100% 100%, rgba(217, 119, 6, 0.05) 0px, transparent 50%),
@@ -220,7 +220,7 @@ img {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(255, 255, 255, 0.4),
+    rgba(252, 250, 245, 0.4),
     transparent
   );
   animation: shimmer-load 2.5s infinite;
@@ -243,11 +243,11 @@ img {
   z-index: 1000;
   padding: 24px 0;
   transition: var(--transition);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(252, 250, 245, 0.05);
 }
 
 .navbar.scrolled {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(252, 250, 245, 0.85);
   backdrop-filter: blur(20px);
   padding: 16px 0;
   box-shadow: var(--shadow-sm);
@@ -331,7 +331,7 @@ img {
   top: 100%;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(252, 250, 245, 0.95);
   backdrop-filter: blur(20px);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -532,7 +532,7 @@ img {
   right: 30px;
   width: 420px;
   max-width: calc(100vw - 60px);
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(252, 250, 245, 0.88);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(14, 165, 233, 0.18);
   border-radius: 20px;
@@ -746,7 +746,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  background: white;
+  background: var(--primary);
   border-radius: 24px;
   padding: 35px;
   box-shadow: var(--shadow-md);
@@ -800,7 +800,7 @@ img {
 }
 
 .product-card {
-  background: white;
+  background: var(--primary);
   border-radius: 24px;
   overflow: hidden;
   border: 1px solid var(--border);
@@ -909,7 +909,7 @@ img {
 }
 
 .why-card {
-  background: white;
+  background: var(--primary);
   border-radius: 20px;
   padding: 35px 25px;
   border: 1px solid rgba(226, 232, 240, 0.6);
@@ -1004,7 +1004,7 @@ img {
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  background: white;
+  background: var(--primary);
   color: var(--eco-green);
   display: flex;
   align-items: center;
@@ -1084,7 +1084,7 @@ img {
 }
 
 .leader-card {
-  background: white;
+  background: var(--primary);
   border-radius: 24px;
   padding: 40px;
   border: 1px solid var(--border);
@@ -1135,7 +1135,7 @@ img {
 }
 
 .cta-glass {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
+  background: linear-gradient(135deg, rgba(252, 250, 245, 0.7) 0%, rgba(252, 250, 245, 0.4) 100%);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(14, 165, 233, 0.15);
   border-radius: 32px;
@@ -1189,7 +1189,7 @@ img {
 }
 
 .btn-cta-outline {
-  background: white;
+  background: var(--primary);
   border-color: var(--border);
 }
 
@@ -1235,7 +1235,7 @@ img {
 }
 
 .value-card {
-  background: white;
+  background: var(--primary);
   border-radius: 20px;
   padding: 40px 30px;
   border: 1px solid rgba(226, 232, 240, 0.6);
@@ -1411,7 +1411,7 @@ img {
   top: 10px;
   width: 34px;
   height: 34px;
-  background: white;
+  background: var(--primary);
   border: 2px solid var(--accent);
   color: var(--accent);
   border-radius: 50%;
@@ -1427,7 +1427,7 @@ img {
 }
 
 .timeline-card {
-  background: white;
+  background: var(--primary);
   border-radius: 16px;
   padding: 30px;
   border: 1px solid var(--border);
@@ -1472,7 +1472,7 @@ img {
 }
 
 .exec-card {
-  background: white;
+  background: var(--primary);
   border-radius: 24px;
   border: 1px solid var(--border);
   display: flex;
@@ -1578,7 +1578,7 @@ img {
 }
 
 .info-row-card {
-  background: white;
+  background: var(--primary);
   border-radius: 16px;
   padding: 24px;
   border: 1px solid var(--border);
@@ -1656,7 +1656,7 @@ img {
 
 /* Quote/Sample request Form Panel */
 .contact-form-panel {
-  background: white;
+  background: var(--primary);
   border-radius: 24px;
   padding: 40px;
   border: 1px solid var(--border);
@@ -1743,7 +1743,7 @@ img {
 }
 
 .success-modal {
-  background: white;
+  background: var(--primary);
   border-radius: 28px;
   padding: 50px 40px;
   max-width: 600px;
@@ -1841,7 +1841,7 @@ img {
 }
 
 .legal-section-card {
-  background: white;
+  background: var(--primary);
   border: 1px solid var(--border);
   border-radius: 20px;
   padding: 40px;
@@ -2019,7 +2019,7 @@ img {
   }
   
   .navbar {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(252, 250, 245, 0.95);
     backdrop-filter: blur(20px);
     padding: 16px 0;
     border-bottom: 1px solid var(--border);

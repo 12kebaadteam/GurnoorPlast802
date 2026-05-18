@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Layers, Mail, Phone, MapPin, Globe, Shield } from 'lucide-react';
+import { Mail, Phone, MapPin, Globe, Shield } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,7 +9,6 @@ const Footer = () => {
       <div className="container footer-grid">
         <div className="footer-brand">
           <Link to="/" className="logo footer-logo">
-            <Layers className="logo-icon" />
             <span>Gurnoor Plast</span>
           </Link>
           <p className="footer-desc">
