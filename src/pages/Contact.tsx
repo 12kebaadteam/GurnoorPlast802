@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, CheckCircle2, Clock } from 'lucide-react';
 
-// Public secure background form submissions key (Get a free one at web3forms.com)
-// If left as the placeholder, the website will run a premium high-speed local simulation!
-const WEB3FORMS_ACCESS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY_HERE";
+// Secure background form submissions endpoint powered by Formspree
+const FORMSPREE_ENDPOINT_URL = "https://formspree.io/f/xnjrnjjq";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -24,24 +23,19 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    const payload = {
-      access_key: WEB3FORMS_ACCESS_KEY,
-      subject: `New Gurnoor Plast Quote Request - ${formData.company || formData.name}`,
-      from_name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      company: formData.company,
-      product: formData.product,
-      neck_size: formData.neckSize,
-      message: formData.message,
-    };
-
-    if (WEB3FORMS_ACCESS_KEY === "YOUR_WEB3FORMS_ACCESS_KEY_HERE") {
-      // Premium local simulation if no production key is set yet
-      setTimeout(() => {
-        setLoading(false);
+    // Live secure background AJAX transmission to your Formspree inbox
+    fetch(FORMSPREE_ENDPOINT_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: JSON.stringify(formData)
+    })
+    .then((res) => {
+      setLoading(false);
+      if (res.ok) {
         setIsSubmitted(true);
-        
         // Reset form
         setFormData({
           name: '',
@@ -52,41 +46,14 @@ const Contact = () => {
           neckSize: '28mm (PCO 1881 / 1810)',
           message: '',
         });
-      }, 1000);
-    } else {
-      // Live secure background AJAX transmission to your inbox
-      fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json"
-        },
-        body: JSON.stringify(payload)
-      })
-      .then(res => res.json())
-      .then(data => {
-        setLoading(false);
-        if (data.success) {
-          setIsSubmitted(true);
-          // Reset form
-          setFormData({
-            name: '',
-            email: '',
-            phone: '',
-            company: '',
-            product: 'PET Preforms',
-            neckSize: '28mm (PCO 1881 / 1810)',
-            message: '',
-          });
-        } else {
-          alert("Submission error: " + (data.message || "Unable to send."));
-        }
-      })
-      .catch(() => {
-        setLoading(false);
-        alert("Network error. Please check your connection and try again.");
-      });
-    }
+      } else {
+        alert("Submission error: Unable to route your quote request at this time.");
+      }
+    })
+    .catch(() => {
+      setLoading(false);
+      alert("Network error. Please check your connection and try again.");
+    });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
