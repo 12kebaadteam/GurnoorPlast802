@@ -2134,4 +2134,36 @@ img {
   .btn-cookie-decline, .btn-cookie-accept {
     width: 100%;
   }
+
+  /* Success Modal Mobile Optimization */
+  .success-overlay {
+    padding: 24px 16px;
+    align-items: flex-start;
+    overflow-y: auto;
+  }
+
+  .success-modal {
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .success-modal h2 {
+    font-size: 1.6rem;
+  }
+
+  .success-intro {
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+
+  .success-routing-note {
+    padding: 16px;
+    margin-bottom: 20px;
+    gap: 8px;
+  }
+
+  .success-routing-note p {
+    font-size: 0.85rem;
+  }
 }

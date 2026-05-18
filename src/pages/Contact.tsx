@@ -33,12 +33,12 @@ const Contact = () => {
     const encodedMessage = encodeURIComponent(formattedMessage);
     const whatsappUrl = `https://wa.me/919815532082?text=${encodedMessage}`;
 
+    // Open WhatsApp synchronously to prevent browser pop-up blocking
+    window.open(whatsappUrl, '_blank');
+
     setTimeout(() => {
       setLoading(false);
       setIsSubmitted(true);
-      
-      // Redirect to WhatsApp in a new window/tab
-      window.open(whatsappUrl, '_blank');
       
       // Reset form
       setFormData({
@@ -50,7 +50,7 @@ const Contact = () => {
         neckSize: '28mm (PCO 1881 / 1810)',
         message: '',
       });
-    }, 1200);
+    }, 600);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
