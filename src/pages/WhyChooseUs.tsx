@@ -62,9 +62,9 @@ const WhyChooseUs = () => {
             className="about-hero-content"
           >
             <span className="section-tag"><Sparkles size={14} /> Exceptional Standard</span>
-            <h1>Why Industrial Leaders Choose GPlast</h1>
+            <h1>Why Industrial Leaders Choose Gurnoor Plast</h1>
             <p className="large-lead">
-              Established in 2010, GPlast stands for uncompromising quality, modern automation, and strict green standards. We produce premium PET Preforms and Bottles tailored for demanding blowing configurations.
+              Established in 2010, Gurnoor Plast stands for uncompromising quality, modern automation, and strict green standards. We produce premium PET Preforms and Bottles tailored for demanding blowing configurations.
             </p>
           </motion.div>
         </div>

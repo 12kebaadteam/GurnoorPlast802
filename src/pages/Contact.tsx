@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, CheckCircle2, Clock, ShieldCheck } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, CheckCircle2, Clock } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -74,7 +74,7 @@ const Contact = () => {
             className="contact-info-panel"
           >
             <div className="panel-header">
-              <h2>GPlast Headquarters</h2>
+              <h2>Gurnoor Plast Headquarters</h2>
               <p>Contact our Mohali office for general inquiries, factory audits, or procurement contracts.</p>
             </div>
 
@@ -109,21 +109,12 @@ const Contact = () => {
                 <div className="info-detail">
                   <span>Corporate Factory Location</span>
                   <h4>Plot 802, Sector 82</h4>
-                  <p>Mohali, Punjab, India, 140308</p>
+                  <p>Mohali, Punjab, India, 140306</p>
                 </div>
               </div>
             </div>
 
-            {/* AUDIT PROMISE */}
-            <div className="audit-promise-card">
-              <ShieldCheck className="promise-icon" size={24} />
-              <div>
-                <h4>Schedule a Factory Audit</h4>
-                <p>
-                  As an ISO-certified facility committed to 100% quality assurance and processing over 15 tonnes of recycled waste each month, our doors are open for client quality compliance checks.
-                </p>
-              </div>
-            </div>
+
           </motion.div>
 
           {/* RIGHT COLUMN: QUOTE FORM */}
@@ -272,7 +263,7 @@ const Contact = () => {
               </div>
               <h2>Specifications Logged Successfully</h2>
               <p className="success-intro">
-                Thank you for your interest in GPlast's quality packaging solutions. 
+                Thank you for your interest in Gurnoor Plast's quality packaging solutions. 
               </p>
               <div className="success-routing-note">
                 <p>

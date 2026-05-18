@@ -27,7 +27,7 @@ const Legal = () => {
             <Layers className="legal-hero-icon" />
             <h1>Legal Notices & Policies</h1>
             <p className="large-lead">
-              GPlast is committed to industrial compliance, high-quality standards, transparency, and eco-friendly polymer manufacturing practices since our establishment in 2010.
+              Gurnoor Plast is committed to industrial compliance, high-quality standards, transparency, and eco-friendly polymer manufacturing practices since our establishment in 2010.
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Legal = () => {
             <span className="last-updated">Last Updated: May 2026</span>
             <div className="legal-content-text">
               <p>
-                This Privacy Policy explains how GPlast ("we", "our", or "us") collects, uses, shares, and protects your information when you visit our website, request custom preform quotes, or contact our team under the management of CEO Gagandeep Kaur and MD Hardev Singh.
+                This Privacy Policy explains how Gurnoor Plast ("we", "our", or "us") collects, uses, shares, and protects your information when you visit our website, request custom preform quotes, or contact our team under the management of CEO Gagandeep Kaur and MD Hardev Singh.
               </p>
               <h3>1. Information We Collect</h3>
               <p>
@@ -70,19 +70,19 @@ const Legal = () => {
             <span className="last-updated">Last Updated: May 2026</span>
             <div className="legal-content-text">
               <p>
-                Welcome to GPlast. By browsing this website, requesting quotes, or partnering with us for PET bottle manufacturing, you agree to comply with and be bound by the following Terms & Conditions.
+                Welcome to Gurnoor Plast. By browsing this website, requesting quotes, or partnering with us for PET bottle manufacturing, you agree to comply with and be bound by the following Terms & Conditions.
               </p>
               <h3>1. Quotations and Sample Moulding</h3>
               <p>
-                All sample moulds and custom grammage quotes offered by GPlast are subject to stock availability and active technical clearance from our quality assurance team. Orders are finalized upon written consent and corporate contract signatures from MD Hardev Singh or CEO Gagandeep Kaur.
+                All sample moulds and custom grammage quotes offered by Gurnoor Plast are subject to stock availability and active technical clearance from our quality assurance team. Orders are finalized upon written consent and corporate contract signatures from MD Hardev Singh or CEO Gagandeep Kaur.
               </p>
               <h3>2. Manufacturing Tolerances</h3>
               <p>
-                GPlast PET preforms are manufactured to strict industrial standards with typical weight tolerances of ±0.2g and thread tolerances within 0.05mm. Slight deviations from sample sheets are permitted within pre-approved parameters agreed during ordering.
+                Gurnoor Plast PET preforms are manufactured to strict industrial standards with typical weight tolerances of ±0.2g and thread tolerances within 0.05mm. Slight deviations from sample sheets are permitted within pre-approved parameters agreed during ordering.
               </p>
               <h3>3. Waste Granulation & Sustainability Compliance</h3>
               <p>
-                GPlast operates a transparent circular recycling program processing 15+ tonnes of polymer scrap every month. Customers requesting the integration of recycled polymers into secondary packaging acknowledge that recycled material parameters differ slightly in mechanical characteristics from 100% virgin food-grade runs.
+                Gurnoor Plast operates a transparent circular recycling program processing 15+ tonnes of polymer scrap every month. Customers requesting the integration of recycled polymers into secondary packaging acknowledge that recycled material parameters differ slightly in mechanical characteristics from 100% virgin food-grade runs.
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ const Legal = () => {
             <span className="last-updated">Last Updated: May 2026</span>
             <div className="legal-content-text">
               <p>
-                GPlast uses cookies to optimize website performance, provide an outstanding responsive mobile design, and analyze traffic.
+                Gurnoor Plast uses cookies to optimize website performance, provide an outstanding responsive mobile design, and analyze traffic.
               </p>
               <h3>1. What are Cookies?</h3>
               <p>

@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
             <Shield size={48} style={{ color: 'var(--accent)', marginBottom: '20px' }} />
             <h1 style={{ fontSize: '3.2rem', marginBottom: '20px', fontFamily: 'Outfit, sans-serif' }}>Privacy Policy</h1>
             <p className="large-lead">
-              GPlast is committed to industrial compliance, premium quality, transparency, and eco-friendly polymer manufacturing practices at our facility since our establishment in 2010.
+              Gurnoor Plast is committed to industrial compliance, premium quality, transparency, and eco-friendly polymer manufacturing practices at our facility since our establishment in 2010.
             </p>
           </div>
         </div>
@@ -24,12 +24,12 @@ const PrivacyPolicy = () => {
             
             <div className="legal-content-text" style={{ color: 'var(--text-muted)', lineHeight: '1.65' }}>
               <p style={{ marginBottom: '16px' }}>
-                This Privacy Policy explains how GPlast (referred to as we, our, or us) collects, uses, shares, and protects your information when you visit our website, request custom preform quotes, or contact our team under the management of CEO Gagandeep Kaur and MD Hardev Singh.
+                This Privacy Policy explains how Gurnoor Plast (referred to as we, our, or us) collects, uses, shares, and protects your information when you visit our website, request custom preform quotes, or contact our team under the management of CEO Gagandeep Kaur and MD Hardev Singh.
               </p>
               
               <h3 style={{ fontSize: '1.25rem', margin: '24px 0 10px', color: 'var(--text-main)', fontFamily: 'Outfit, sans-serif' }}>1. Corporate Identity & Facility</h3>
               <p style={{ marginBottom: '16px' }}>
-                Our corporate manufacturing facility is located at Plot 802, Sector 82, Mohali, Punjab, 140308. General queries, data requests, and samples scheduling can be managed by calling +91 9815532082 or +91 9815555788, or via email at gurnoorplast@gmail.com.
+                Our corporate manufacturing facility is located at Plot 802, Sector 82, Mohali, Punjab, 140306. General queries, data requests, and samples scheduling can be managed by calling +91 9815532082 or +91 9815555788, or via email at gurnoorplast@gmail.com.
               </p>
 
               <h3 style={{ fontSize: '1.25rem', margin: '24px 0 10px', color: 'var(--text-main)', fontFamily: 'Outfit, sans-serif' }}>2. Information We Collect</h3>
@@ -54,7 +54,7 @@ const PrivacyPolicy = () => {
               <ul style={{ listStyle: 'none', marginLeft: '0', display: 'flex', flexDirection: 'column', gap: '8px', paddingLeft: '10px', borderLeft: '3px solid var(--accent-light)' }}>
                 <li>Email: gurnoorplast@gmail.com</li>
                 <li>Telephone: +91 9815532082 / +91 9815555788</li>
-                <li>Address: Plot 802, Sector 82, Mohali, Punjab, 140308</li>
+                <li>Address: Plot 802, Sector 82, Mohali, Punjab, 140306</li>
               </ul>
             </div>
           </div>

@@ -21,7 +21,7 @@ const About = () => {
   ];
 
   const milestones = [
-    { year: '2010', title: 'The Foundation', desc: 'GPlast was established in Plot 802, Sector 82, Mohali, Punjab with a single micro-injection line and a bold mission: to produce precision PET preforms with zero waste.' },
+    { year: '2010', title: 'The Foundation', desc: 'Gurnoor Plast was established in Plot 802, Sector 82, Mohali, Punjab with a single micro-injection line and a bold mission: to produce precision PET preforms with zero waste.' },
     { year: '2014', title: 'Expansion & Automation', desc: 'Upgraded to fully automated high-speed moulding machines, tripling capacity and introducing specialized neck dimensions for international clients.' },
     { year: '2019', title: 'The 15-Tonne Green Goal', desc: 'Inaugurated our dedicated in-house recycling and granulation facility, successfully processing and redirecting over 15 tonnes of material waste every month.' },
     { year: '2024 & Beyond', title: 'Global Benchmarks', desc: 'Achieved ISO certifications and expanded cleanroom facilities, exporting top-quality PET Preforms to beverages, pharmaceutical, and cosmetic companies worldwide.' },
@@ -41,7 +41,7 @@ const About = () => {
             <span className="section-tag"><Calendar size={14} /> Established in 2010</span>
             <h1>Crafting the Future of Packaging</h1>
             <p className="large-lead">
-              GPlast is a leading premium polymer manufacturer specializing in premium PET preforms and custom PET bottles. Guided by a decade of engineering excellence, an absolute focus on quality, and strict eco-friendly circular loop values.
+              Gurnoor Plast is a leading premium polymer manufacturer specializing in premium PET preforms and custom PET bottles. Guided by a decade of engineering excellence, an absolute focus on quality, and strict eco-friendly circular loop values.
             </p>
           </motion.div>
 
@@ -64,7 +64,7 @@ const About = () => {
             <span className="section-tag">Our Philosophy</span>
             <h2>Values That Drive Excellence</h2>
             <p className="section-desc">
-              At GPlast, we operate under a strict code of engineering precision, premium light aesthetics, and clean resource conservation.
+              At Gurnoor Plast, we operate under a strict code of engineering precision, premium light aesthetics, and clean resource conservation.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ const About = () => {
             <span className="section-tag"><Award size={14} /> Zero-Tolerance Policy</span>
             <h2>Uncompromising Quality Assurance</h2>
             <p>
-              Our reputation is anchored in quality assurance. GPlast PET preforms are renowned for their flawless blowability, high mechanical resistance, and exquisite high-end sheen. We guarantee this through rigorous, automated inspections at every step:
+              Our reputation is anchored in quality assurance. Gurnoor Plast PET preforms are renowned for their flawless blowability, high mechanical resistance, and exquisite high-end sheen. We guarantee this through rigorous, automated inspections at every step:
             </p>
             <ul className="qa-list">
               <li>
@@ -174,7 +174,7 @@ const About = () => {
             <span className="section-tag text-eco-green"><Leaf size={14} /> Circular Manufacturing</span>
             <h2>Our 15-Tonne Sustainability Loop</h2>
             <p>
-              As a responsible industrial manufacturer, GPlast has been at the forefront of polymer recycling since 2010. Our state-of-the-art facility features a closed-loop system designed to make production completely sustainable.
+              As a responsible industrial manufacturer, Gurnoor Plast has been at the forefront of polymer recycling since 2010. Our state-of-the-art facility features a closed-loop system designed to make production completely sustainable.
             </p>
             <div className="green-box">
               <h4>Active Monthly Impact: 15+ Tonnes</h4>
@@ -229,7 +229,7 @@ const About = () => {
             <span className="section-tag">Governance</span>
             <h2>Executive Board</h2>
             <p className="section-desc">
-              Meet the minds guiding GPlast's quality metrics, environmental milestones, and long-term industrial partnerships.
+              Meet the minds guiding Gurnoor Plast's quality metrics, environmental milestones, and long-term industrial partnerships.
             </p>
           </div>
 
@@ -260,7 +260,7 @@ const About = () => {
                   Chief Executive Officer (CEO)
                 </span>
                 <p className="exec-bio" style={{ color: 'var(--text-muted)', lineHeight: '1.65', fontSize: '0.98rem' }}>
-                  Gagandeep has led GPlast since 2010 with a singular vision: merging premium packaging with responsible eco-awareness. Holding an advanced degree in Materials Engineering, she has driven our green policies and oversees the in-house waste management facility that reprocesses 15+ tonnes each month. Under her leadership, GPlast has secured numerous quality certifications and established international supply channels.
+                  Gagandeep has led Gurnoor Plast since 2010 with a singular vision: merging premium packaging with responsible eco-awareness. Holding an advanced degree in Materials Engineering, she has driven our green policies and oversees the in-house waste management facility that reprocesses 15+ tonnes each month. Under her leadership, Gurnoor Plast has secured numerous quality certifications and established international supply channels.
                 </p>
               </div>
             </motion.div>
@@ -291,7 +291,7 @@ const About = () => {
                   Managing Director (MD)
                 </span>
                 <p className="exec-bio" style={{ color: 'var(--text-muted)', lineHeight: '1.65', fontSize: '0.98rem' }}>
-                  With over 20 years in the polymer blow-moulding industry, Hardev directs our factory operations, mould customization, and rigorous quality assurance labs. His expertise in mechanical testing ensures that every preform produced at GPlast offers optimal heat distribution, flawless neck profiles, and zero stress fractures, setting the benchmark for beverage blowers nationwide.
+                  With over 20 years in the polymer blow-moulding industry, Hardev directs our factory operations, mould customization, and rigorous quality assurance labs. His expertise in mechanical testing ensures that every preform produced at Gurnoor Plast offers optimal heat distribution, flawless neck profiles, and zero stress fractures, setting the benchmark for beverage blowers nationwide.
                 </p>
               </div>
             </motion.div>

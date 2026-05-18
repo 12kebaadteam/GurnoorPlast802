@@ -19,7 +19,7 @@ const Sustainability = () => {
             </span>
             <h1>Our Green Commitment</h1>
             <p className="large-lead">
-              At GPlast, we believe that premium packaging must go hand-in-hand with active planetary stewardship. We lead the Mohali industrial sector with a modern circular economy framework that turns waste into high-utility resources.
+              At Gurnoor Plast, we believe that premium packaging must go hand-in-hand with active planetary stewardship. We lead the Mohali industrial sector with a modern circular economy framework that turns waste into high-utility resources.
             </p>
           </motion.div>
         </div>
@@ -44,7 +44,7 @@ const Sustainability = () => {
                 Redirecting Over 15 Tonnes of Material Monthly
               </h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', marginBottom: '20px', lineHeight: '1.7' }}>
-                Our GPlast factory in Plot 802, Sector 82, Mohali actively processes and recycles more than 15 tonnes of polymer waste every single month. By creating structured secondary granulation pipelines, we capture post-industrial scrap and granulate it back into reusable material.
+                Our Gurnoor Plast factory in Plot 802, Sector 82, Mohali actively processes and recycles more than 15 tonnes of polymer waste every single month. By creating structured secondary granulation pipelines, we capture post-industrial scrap and granulate it back into reusable material.
               </p>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', marginBottom: '30px', lineHeight: '1.7' }}>
                 This proactive collection ensures that valuable raw polymers are diverted from local landfills and cleanly processed back into commercial supply cycles, supporting local sustainable industrial partnerships.

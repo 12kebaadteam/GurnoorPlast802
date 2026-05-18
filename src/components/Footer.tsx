@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-brand">
           <Link to="/" className="logo footer-logo">
             <Layers className="logo-icon" />
-            <span>GPlast</span>
+            <span>Gurnoor Plast</span>
           </Link>
           <p className="footer-desc">
             Premium PET Preforms and Bottles since 2010. Leading the industry with ultimate quality assurance, modern technology, and sustainable manufacturing practices.
@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
           <div className="contact-item font-address">
             <MapPin size={16} className="contact-icon" />
-            <span>Plot 802, Sector 82, Mohali, Punjab, India, 140308</span>
+            <span>Plot 802, Sector 82, Mohali, Punjab, India, 140306</span>
           </div>
           <div className="est-badge">
             <Shield size={14} className="badge-icon" />
@@ -78,7 +78,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container bottom-content" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '15px' }}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '4px' }}>
-            <p className="copyright" style={{ margin: 0 }}>&copy; {currentYear} GPlast. All Rights Reserved.</p>
+            <p className="copyright" style={{ margin: 0 }}>&copy; {currentYear} Gurnoor Plast. All Rights Reserved.</p>
             <p style={{ margin: 0, fontSize: '0.78rem', opacity: 0.6, letterSpacing: '0.5px' }}>
               Designed & Developed by MyPaperTrail
             </p>

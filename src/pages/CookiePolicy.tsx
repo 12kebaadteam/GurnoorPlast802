@@ -9,7 +9,7 @@ const CookiePolicy = () => {
             <Cookie size={48} style={{ color: 'var(--accent)', marginBottom: '20px' }} />
             <h1 style={{ fontSize: '3.2rem', marginBottom: '20px', fontFamily: 'Outfit, sans-serif' }}>Cookie Policy</h1>
             <p className="large-lead">
-              Learn how GPlast uses cookies to optimize website speed, analyze mobile UI responsiveness, and remember your technical specifications inquiries.
+              Learn how Gurnoor Plast uses cookies to optimize website speed, analyze mobile UI responsiveness, and remember your technical specifications inquiries.
             </p>
           </div>
         </div>
@@ -24,7 +24,7 @@ const CookiePolicy = () => {
             
             <div className="legal-content-text" style={{ color: 'var(--text-muted)', lineHeight: '1.65' }}>
               <p style={{ marginBottom: '16px' }}>
-                GPlast uses cookies to optimize website performance, provide an outstanding responsive mobile design, and analyze traffic.
+                Gurnoor Plast uses cookies to optimize website performance, provide an outstanding responsive mobile design, and analyze traffic.
               </p>
               
               <h3 style={{ fontSize: '1.25rem', margin: '24px 0 10px', color: 'var(--text-main)', fontFamily: 'Outfit, sans-serif' }}>1. What are Cookies?</h3>
@@ -51,7 +51,7 @@ const CookiePolicy = () => {
               <ul style={{ listStyle: 'none', marginLeft: '0', display: 'flex', flexDirection: 'column', gap: '8px', paddingLeft: '10px', borderLeft: '3px solid var(--accent-light)' }}>
                 <li>Email: gurnoorplast@gmail.com</li>
                 <li>Telephone: +91 9815532082 / +91 9815555788</li>
-                <li>Address: Plot 802, Sector 82, Mohali, Punjab, 140308</li>
+                <li>Address: Plot 802, Sector 82, Mohali, Punjab, 140306</li>
               </ul>
             </div>
           </div>

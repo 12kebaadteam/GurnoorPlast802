@@ -83,7 +83,7 @@ const Home = () => {
               <span className="gradient-text">Crafted for Quality.</span>
             </h1>
             <p className="hero-subtitle">
-              GPlast manufactures high-precision PET Preforms and state-of-the-art PET Bottles for leading brands globally. Bridging the gap between premium packaging and strict environmental responsibility.
+              Gurnoor Plast manufactures high-precision PET Preforms and state-of-the-art PET Bottles for leading brands globally. Bridging the gap between premium packaging and strict environmental responsibility.
             </p>
             <div className="hero-actions">
               <Link to="/contact" className="btn btn-primary">
@@ -183,7 +183,7 @@ const Home = () => {
         <div className="container">
           <div className="section-header">
             <span className="section-tag">Quality Assurance</span>
-            <h2>Why Industrial Leaders Choose GPlast</h2>
+            <h2>Why Industrial Leaders Choose Gurnoor Plast</h2>
             <p className="section-desc">
               Established in 2010, we have spent over a decade perfecting our processes. Here is how we guarantee a superior manufacturing experience.
             </p>
@@ -230,7 +230,7 @@ const Home = () => {
               </div>
               <h2>Recycling Waste. Preserving Tomorrow.</h2>
               <p className="sustainability-intro">
-                We believe premium manufacturing doesn't have to cost the planet. By implementing cutting-edge circular waste systems, GPlast actively promotes green industrial operations.
+                We believe premium manufacturing doesn't have to cost the planet. By implementing cutting-edge circular waste systems, Gurnoor Plast actively promotes green industrial operations.
               </p>
               <div className="eco-stat-box">
                 <div className="eco-stat-item">
@@ -298,7 +298,7 @@ const Home = () => {
                 <h3>Gagandeep Kaur</h3>
                 <span className="leader-role">Chief Executive Officer</span>
                 <p className="leader-quote">
-                  "At GPlast, our goal has never been just volume. It has been high-end precision. By investing in hybrid cleanroom machinery and circular granulation loops, we prove premium packaging and green sustainability can thrive together."
+                  "At Gurnoor Plast, our goal has never been just volume. It has been high-end precision. By investing in hybrid cleanroom machinery and circular granulation loops, we prove premium packaging and green sustainability can thrive together."
                 </p>
               </div>
             </motion.div>
@@ -328,7 +328,7 @@ const Home = () => {
           <div className="cta-glass">
             <h2>Ready to Elevate Your Packaging?</h2>
             <p>
-              Whether you need customized neck threads, optimized grammage PET preforms, or food-safe bulk PET bottles, GPlast delivers flawless industrial production to match your brand's reputation.
+              Whether you need customized neck threads, optimized grammage PET preforms, or food-safe bulk PET bottles, Gurnoor Plast delivers flawless industrial production to match your brand's reputation.
             </p>
             <div className="cta-actions">
               <Link to="/contact" className="btn btn-primary btn-cta">

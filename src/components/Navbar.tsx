@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <Link to="/" className="logo">
           <Layers className="logo-icon" />
-          <span>GPlast</span>
+          <span>Gurnoor Plast</span>
         </Link>
 
         {/* Desktop Menu */}
