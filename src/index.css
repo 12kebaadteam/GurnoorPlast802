@@ -2,15 +2,15 @@
 
 :root {
   /* Premium Light Modern Theme Color Palette */
-  --primary: #fcfaf5; /* Premium Soft Alabaster/Cream */
-  --secondary: #f3eedf; /* Premium Sand-Ivory */      /* Warm Alabaster */
-  --accent: #0d9488;         /* Premium Emerald Teal */
-  --accent-dark: #0f766e;    /* Deep Teal */
-  --accent-light: #f0fdfa;   /* Soft Mint Wash */
-  --text-main: #1c1917;      /* Sleek Stone Dark */
-  --text-muted: #57534e;     /* Stone Slate */
-  --text-light: #a8a29e;     /* Light Stone Silver */
-  --border: #dfdacf; /* Premium Stone Border */         /* Soft warm gray border */
+  --primary: #f7fbfd; /* Premium Ice-White/Alabaster */
+  --secondary: #d9edf8; /* Premium Ice-Blue Secondary */
+  --accent: #3bb2e5; /* Premium Sky Blue Accent */
+  --accent-dark: #1d6b94; /* Deep Ocean Blue Accent */
+  --accent-light: #e5f7fe; /* Pure Powder Ice-Blue Accent */
+  --text-main: #0f172a; /* Sleek Slate/Navy Dark */
+  --text-muted: #475569; /* Slate Grey */
+  --text-light: #94a3b8; /* Light Slate Silver */
+  --border: #d4e9f4; /* Premium Sky-Blue Border */
   
   /* Brand Accent Tokens */
   --eco-green: #0f766e;      /* Sustainable Emerald */
@@ -23,9 +23,9 @@
   --mobile-padding: 60px 0;
   
   /* Premium Shadows */
-  --shadow-sm: 0 2px 8px -2px rgba(28, 25, 23, 0.05);
-  --shadow-md: 0 10px 25px -5px rgba(28, 25, 23, 0.08), 0 8px 16px -6px rgba(28, 25, 23, 0.04);
-  --shadow-lg: 0 20px 40px -10px rgba(28, 25, 23, 0.12), 0 10px 20px -8px rgba(28, 25, 23, 0.06);
+  --shadow-sm: 0 2px 8px -2px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 16px -6px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 20px 40px -10px rgba(15, 23, 42, 0.12), 0 10px 20px -8px rgba(15, 23, 42, 0.06);
   --shadow-glow: 0 0 30px 2px rgba(13, 148, 136, 0.15);
   
   /* Transitions */
@@ -40,19 +40,16 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-html {
-  scroll-behavior: smooth;
-  background-color: #e8e2d2;
-}
+html {background-color: #e8f4fa;}
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #e8e2d2; /* Darkened premium Warm Sand/Alabaster base */
+  background-color: #e8f4fa; /* Premium light Ice-Blue/Alabaster base */
   background-image: 
-    radial-gradient(at 0% 0%, rgba(13, 148, 136, 0.07) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(217, 119, 6, 0.05) 0px, transparent 50%),
-    linear-gradient(to right, rgba(28, 25, 23, 0.02) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(28, 25, 23, 0.02) 1px, transparent 1px);
+    radial-gradient(at 0% 0%, rgba(59, 178, 229, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(217, 119, 6, 0.06) 0px, transparent 50%),
+    linear-gradient(to right, rgba(59, 178, 229, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(59, 178, 229, 0.04) 1px, transparent 1px);
   background-size: 100% 100%, 100% 100%, 64px 64px, 64px 64px;
   background-attachment: fixed;
   color: var(--text-main);
@@ -96,11 +93,11 @@ img {
 }
 
 .bg-light {
-  background-color: rgba(226, 222, 213, 0.4);
+  background-color: rgba(232, 244, 250, 0.4);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(28, 25, 23, 0.04);
-  border-bottom: 1px solid rgba(28, 25, 23, 0.04);
+  border-top: 1px solid rgba(15, 23, 42, 0.04);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.04);
 }
 
 /* Typography Utilities */
@@ -220,7 +217,7 @@ img {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(252, 250, 245, 0.4),
+    rgba(247, 251, 253, 0.4),
     transparent
   );
   animation: shimmer-load 2.5s infinite;
@@ -243,11 +240,11 @@ img {
   z-index: 1000;
   padding: 24px 0;
   transition: var(--transition);
-  background: rgba(252, 250, 245, 0.05);
+  background: rgba(247, 251, 253, 0.05);
 }
 
 .navbar.scrolled {
-  background: rgba(252, 250, 245, 0.85);
+  background: rgba(247, 251, 253, 0.85);
   backdrop-filter: blur(20px);
   padding: 16px 0;
   box-shadow: var(--shadow-sm);
@@ -331,7 +328,7 @@ img {
   top: 100%;
   left: 0;
   width: 100%;
-  background: rgba(252, 250, 245, 0.95);
+  background: rgba(247, 251, 253, 0.95);
   backdrop-filter: blur(20px);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -532,7 +529,7 @@ img {
   right: 30px;
   width: 420px;
   max-width: calc(100vw - 60px);
-  background: rgba(252, 250, 245, 0.88);
+  background: rgba(247, 251, 253, 0.88);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(14, 165, 233, 0.18);
   border-radius: 20px;
@@ -1135,7 +1132,7 @@ img {
 }
 
 .cta-glass {
-  background: linear-gradient(135deg, rgba(252, 250, 245, 0.7) 0%, rgba(252, 250, 245, 0.4) 100%);
+  background: linear-gradient(135deg, rgba(247, 251, 253, 0.7) 0%, rgba(247, 251, 253, 0.4) 100%);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(14, 165, 233, 0.15);
   border-radius: 32px;
@@ -2019,7 +2016,7 @@ img {
   }
   
   .navbar {
-    background: rgba(252, 250, 245, 0.95);
+    background: rgba(247, 251, 253, 0.95);
     backdrop-filter: blur(20px);
     padding: 16px 0;
     border-bottom: 1px solid var(--border);
