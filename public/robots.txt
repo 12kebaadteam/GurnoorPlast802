@@ -1,0 +1,6 @@
+# Robots.txt for Gurnoor Plast Mohali
+User-agent: *
+Allow: /
+
+# Sitemap Direction for Google Search Console
+Sitemap: https://gurnoorplast.com/sitemap.xml
