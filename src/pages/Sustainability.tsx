@@ -41,10 +41,10 @@ const Sustainability = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 style={{ fontSize: '2.4rem', marginBottom: '24px', fontFamily: 'Outfit, sans-serif' }}>
-                Redirecting Over 15 Tonnes of Material Monthly
+                Redirecting Over 50 Tonnes of Material Monthly
               </h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', marginBottom: '20px', lineHeight: '1.7' }}>
-                Our Gurnoor Plast factory in Plot 802, Sector 82, Mohali actively processes and recycles more than 15 tonnes of polymer waste every single month. By creating structured secondary granulation pipelines, we capture post-industrial scrap and granulate it back into reusable material.
+                Our Gurnoor Plast factory in Plot 802, Sector 82, Mohali actively processes and recycles more than 50 tonnes of polymer waste every single month. By creating structured secondary granulation pipelines, we capture post-industrial scrap and granulate it back into reusable material.
               </p>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', marginBottom: '30px', lineHeight: '1.7' }}>
                 This proactive collection ensures that valuable raw polymers are diverted from local landfills and cleanly processed back into commercial supply cycles, supporting local sustainable industrial partnerships.
@@ -124,7 +124,7 @@ const Sustainability = () => {
                 Secondary Loops
               </h3>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>
-                reprocessing more than 15 tonnes of waste each month provides high-utility granulated stock which is integrated back into secondary structural plastic applications and partner packaging.
+                reprocessing more than 50 tonnes of waste each month provides high-utility granulated stock which is integrated back into secondary structural plastic applications and partner packaging.
               </p>
             </div>
 

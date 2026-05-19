@@ -12,7 +12,6 @@ const Contact = () => {
     phone: '',
     company: '',
     product: 'PET Preforms',
-    neckSize: '28mm (PCO 1881 / 1810)',
     message: '',
   });
 
@@ -43,7 +42,6 @@ const Contact = () => {
           phone: '',
           company: '',
           product: 'PET Preforms',
-          neckSize: '28mm (PCO 1881 / 1810)',
           message: '',
         });
       } else {
@@ -216,27 +214,9 @@ const Contact = () => {
                     <option value="PET Preforms">PET Preforms</option>
                     <option value="PET Bottles">PET Bottles</option>
                     <option value="Custom Mould Development">Custom Mould Development</option>
-                    <option value="Granulated Waste Supplies">Recycled Polymers (15T+ Supply)</option>
+                    <option value="Granulated Waste Supplies">Recycled Polymers (50T+ Supply)</option>
                   </select>
                 </div>
-
-                {formData.product.includes('Preforms') && (
-                  <div className="form-group">
-                    <label htmlFor="neckSize">Preferred Neck Thread</label>
-                    <select
-                      id="neckSize"
-                      name="neckSize"
-                      value={formData.neckSize}
-                      onChange={handleChange}
-                    >
-                      <option value="28mm (PCO 1881 / 1810)">28mm (PCO 1881 / 1810)</option>
-                      <option value="30/25 Neck (Beverage)">30/25 Neck (Beverage)</option>
-                      <option value="38mm Neck (Juice/Dairy)">38mm Neck (Juice/Dairy)</option>
-                      <option value="45mm Neck (Oil/Bulk)">45mm Neck (Oil/Bulk)</option>
-                      <option value="Custom Specification">Custom Size / Grammage</option>
-                    </select>
-                  </div>
-                )}
               </div>
 
               <div className="form-group">
@@ -291,7 +271,7 @@ const Contact = () => {
                   <strong> CEO Gagandeep Kaur</strong> and <strong> MD Hardev Singh</strong>.
                 </p>
                 <p>
-                  Our senior procurement consultant will review the requested neck sizes, grammages, and thermal loads, and follow up within 12 working hours with a technical quote and custom samples.
+                  Our senior procurement consultant will review the requested specifications, grammages, and thermal loads, and follow up within 12 working hours with a technical quote and custom samples.
                 </p>
               </div>
               <button onClick={() => setIsSubmitted(false)} className="btn btn-primary btn-close-modal">

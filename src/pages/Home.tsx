@@ -19,7 +19,7 @@ const Home = () => {
   } as const;
 
   const statItems = [
-    { value: '15T+', label: 'Waste Processed Monthly', icon: <Leaf className="text-eco-green" /> },
+    { value: '50T+', label: 'Waste Processed Monthly', icon: <Leaf className="text-eco-green" /> },
     { value: '100%', label: 'Quality Assurance Guarantee', icon: <ShieldCheck className="text-luxury-gold" /> },
     { value: '2010', label: 'Leading Since (Est.)', icon: <Award className="text-accent" /> },
   ];

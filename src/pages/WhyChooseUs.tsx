@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
       details: [
         'Active circular economy loops in our Mohali factory',
         'Granulation of internal scrap for secondary applications',
-        'More than 15 tonnes of material reprocessed monthly',
+        'More than 50 tonnes of material reprocessed monthly',
         'Zero-waste factory guidelines active since 2010'
       ]
     }

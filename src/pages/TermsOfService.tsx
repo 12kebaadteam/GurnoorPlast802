@@ -39,7 +39,7 @@ const TermsOfService = () => {
 
               <h3 style={{ fontSize: '1.25rem', margin: '24px 0 10px', color: 'var(--text-main)', fontFamily: 'Outfit, sans-serif' }}>3. Waste Granulation & Sustainability Integration</h3>
               <p style={{ marginBottom: '16px' }}>
-                Gurnoor Plast operates a transparent circular recycling program processing more than 15 tonnes of polymer scrap every month. Customers requesting the integration of recycled granulated polymers into secondary packaging acknowledge that recycled material parameters differ slightly in mechanical characteristics from 100% virgin food-grade runs.
+                Gurnoor Plast operates a transparent circular recycling program processing more than 50 tonnes of polymer scrap every month. Customers requesting the integration of recycled granulated polymers into secondary packaging acknowledge that recycled material parameters differ slightly in mechanical characteristics from 100% virgin food-grade runs.
               </p>
 
               <h3 style={{ fontSize: '1.25rem', margin: '24px 0 10px', color: 'var(--text-main)', fontFamily: 'Outfit, sans-serif' }}>4. Governing Law</h3>

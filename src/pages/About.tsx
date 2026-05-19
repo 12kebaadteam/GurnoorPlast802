@@ -9,8 +9,8 @@ const About = () => {
       icon: <ShieldCheck className="text-luxury-gold" size={24} />,
     },
     {
-      title: '15-Tonne Circular Sustainability',
-      text: 'We are committed to reducing environmental load. By processing more than 15 tonnes of waste polymer monthly, we play an active role in sustainable circular supply loops.',
+      title: '50-Tonne Circular Sustainability',
+      text: 'We are committed to reducing environmental load. By processing more than 50 tonnes of waste polymer monthly, we play an active role in sustainable circular supply loops.',
       icon: <Leaf className="text-eco-green" size={24} />,
     },
     {
@@ -23,7 +23,7 @@ const About = () => {
   const milestones = [
     { year: '2010', title: 'The Foundation', desc: 'Gurnoor Plast was established in Plot 802, Sector 82, Mohali, Punjab with a single micro-injection line and a bold mission: to produce precision PET preforms with zero waste.' },
     { year: '2014', title: 'Expansion & Automation', desc: 'Upgraded to fully automated high-speed moulding machines, tripling capacity and introducing specialized neck dimensions for international clients.' },
-    { year: '2019', title: 'The 15-Tonne Green Goal', desc: 'Inaugurated our dedicated in-house recycling and granulation facility, successfully processing and redirecting over 15 tonnes of material waste every month.' },
+    { year: '2019', title: 'The 50-Tonne Green Goal', desc: 'Inaugurated our dedicated in-house recycling and granulation facility, successfully processing and redirecting over 50 tonnes of material waste every month.' },
     { year: '2024 & Beyond', title: 'Global Benchmarks', desc: 'Achieved ISO certifications and expanded cleanroom facilities, exporting top-quality PET Preforms to beverages, pharmaceutical, and cosmetic companies worldwide.' },
   ];
 
@@ -172,14 +172,14 @@ const About = () => {
             className="sustainability-details-content"
           >
             <span className="section-tag text-eco-green"><Leaf size={14} /> Circular Manufacturing</span>
-            <h2>Our 15-Tonne Sustainability Loop</h2>
+            <h2>Our 50-Tonne Sustainability Loop</h2>
             <p>
               As a responsible industrial manufacturer, Gurnoor Plast has been at the forefront of polymer recycling since 2010. Our state-of-the-art facility features a closed-loop system designed to make production completely sustainable.
             </p>
             <div className="green-box">
-              <h4>Active Monthly Impact: 15+ Tonnes</h4>
+              <h4>Active Monthly Impact: 50+ Tonnes</h4>
               <p>
-                Every month, we process and redirect more than 15 tonnes of plastic waste that would otherwise go to waste. We granulate 100% of our post-industrial moulding scrap and mix it in careful ratios with premium virgin materials for non-food structural applications, or supply it to partner industries.
+                Every month, we process and redirect more than 50 tonnes of plastic waste that would otherwise go to waste. We granulate 100% of our post-industrial moulding scrap and mix it in careful ratios with premium virgin materials for non-food structural applications, or supply it to partner industries.
               </p>
             </div>
           </motion.div>
