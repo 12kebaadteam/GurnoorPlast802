@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, CheckCircle2, Clock, ExternalLink } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, CheckCircle2, Clock } from 'lucide-react';
 
 // Secure background form submissions endpoint powered by Formspree
 const FORMSPREE_ENDPOINT_URL = "https://formspree.io/f/xnjrnjjq";
@@ -128,28 +128,6 @@ const Contact = () => {
                   <span>Corporate Factory Location</span>
                   <h4>Plot 802, Sector 82</h4>
                   <p>Mohali, Punjab, India, 140306</p>
-                </div>
-              </div>
-
-              <div className="info-row-card">
-                <div className="info-icon-box">
-                  <ExternalLink size={20} />
-                </div>
-                <div className="info-detail">
-                  <span>Digital Showroom</span>
-                  <h4>
-                    <a 
-                      href="https://www.indiamart.com/gurnoorplast/" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      style={{ color: 'var(--accent)', textDecoration: 'underline', fontWeight: '600' }}
-                      onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-dark)'}
-                      onMouseLeave={(e) => e.currentTarget.style.color = 'var(--accent)'}
-                    >
-                      Also available on IndiaMART
-                    </a>
-                  </h4>
-                  <p>Browse detailed products & verify corporate verified trust leads</p>
                 </div>
               </div>
             </div>
