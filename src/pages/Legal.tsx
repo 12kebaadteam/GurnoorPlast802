@@ -56,7 +56,7 @@ const Legal = () => {
               </p>
               <h3>3. Data Sharing & Security</h3>
               <p>
-                We do not sell, rent, or lease your corporate or personal data. All specifications are securely stored on our local systems at our Ludhiana, Punjab corporate factory. Only authorized procurement managers have access to these files.
+                We do not sell, rent, or lease your corporate or personal data. All specifications are securely stored on our local systems at our Mohali, Punjab corporate factory. Only authorized procurement managers have access to these files.
               </p>
             </div>
           </div>
@@ -82,7 +82,7 @@ const Legal = () => {
               </p>
               <h3>3. Waste Granulation & Sustainability Compliance</h3>
               <p>
-                Gurnoor Plast operates a transparent circular recycling program processing 15+ tonnes of polymer scrap every month. Customers requesting the integration of recycled polymers into secondary packaging acknowledge that recycled material parameters differ slightly in mechanical characteristics from 100% virgin food-grade runs.
+                Gurnoor Plast operates a transparent circular recycling program processing 50+ tonnes of polymer scrap every month. Customers requesting the integration of recycled polymers into secondary packaging acknowledge that recycled material parameters differ slightly in mechanical characteristics from 100% virgin food-grade runs.
               </p>
             </div>
           </div>

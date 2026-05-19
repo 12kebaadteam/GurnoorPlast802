@@ -260,7 +260,7 @@ const About = () => {
                   Chief Executive Officer (CEO)
                 </span>
                 <p className="exec-bio" style={{ color: 'var(--text-muted)', lineHeight: '1.65', fontSize: '0.98rem' }}>
-                  Gagandeep has led Gurnoor Plast since 2010 with a singular vision: merging premium packaging with responsible eco-awareness. Holding an advanced degree in Materials Engineering, she has driven our green policies and oversees the in-house waste management facility that reprocesses 15+ tonnes each month. Under her leadership, Gurnoor Plast has secured numerous quality certifications and established international supply channels.
+                  Gagandeep has led Gurnoor Plast since 2010 with a singular vision: merging premium packaging with responsible eco-awareness. Holding an advanced degree in Materials Engineering, she has driven our green policies and oversees the in-house waste management facility that reprocesses 50+ tonnes each month. Under her leadership, Gurnoor Plast has secured numerous quality certifications and established international supply channels.
                 </p>
               </div>
             </motion.div>

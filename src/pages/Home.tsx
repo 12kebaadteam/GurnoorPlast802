@@ -40,10 +40,10 @@ const Home = () => {
       accent: false,
     },
     {
-      title: 'Specialty PET Jars & Sanitizers',
+      title: 'PET Jars & Sanitizers',
       subtitle: 'Food-Grade & Industrial Packaging',
       description: 'Elegant specialty honey jars, saunf bottles, turpentine oil containers, and high-durability hand sanitizer bottles engineered to meet strict chemical compliance and food safety standards.',
-      features: ['Capacity range: 50ml to 3 Litres (HSN 39233010)', 'Specialty lines: Honey, Spice, Oil & Turpentine Jars', 'Highly secure leak-proof thread configurations', 'Available in transparent, green, amber & custom tints'],
+      features: ['Capacity range: 50ml to 3 Litres', 'Specialty lines: Honey, Spice, Oil & Turpentine Jars', 'Highly secure leak-proof thread configurations', 'Available in transparent, green, amber & custom tints'],
       accent: false,
     },
   ];
@@ -243,7 +243,7 @@ const Home = () => {
                 <div className="eco-stat-item">
                   <div className="eco-stat-icon"><Trash2 size={24} /></div>
                   <div>
-                    <h4>15+ Tonnes Waste</h4>
+                    <h4>50+ Tonnes Waste</h4>
                     <p>Processed and redirected every single month at our Mohali plant</p>
                   </div>
                 </div>
