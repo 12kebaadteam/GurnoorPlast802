@@ -130,6 +130,17 @@ const Contact = () => {
                   <p>Mohali, Punjab, India, 140306</p>
                 </div>
               </div>
+
+              <div className="info-row-card">
+                <div className="info-icon-box" style={{ background: 'var(--eco-green-light)', color: 'var(--eco-green)' }}>
+                  <CheckCircle2 size={20} />
+                </div>
+                <div className="info-detail">
+                  <span>Verified B2B Status</span>
+                  <h4>Also Available on IndiaMART</h4>
+                  <p>Certified Gold Supplier & Highly Rated Manufacturer Profile</p>
+                </div>
+              </div>
             </div>
 
 
