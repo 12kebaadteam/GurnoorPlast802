@@ -213,6 +213,7 @@ const Contact = () => {
                   >
                     <option value="PET Preforms">PET Preforms</option>
                     <option value="PET Bottles">PET Bottles</option>
+                    <option value="Specialty Jars & Sanitizers">Specialty Jars & Sanitizers (HSN 39233010)</option>
                     <option value="Custom Mould Development">Custom Mould Development</option>
                     <option value="Granulated Waste Supplies">Recycled Polymers (50T+ Supply)</option>
                   </select>

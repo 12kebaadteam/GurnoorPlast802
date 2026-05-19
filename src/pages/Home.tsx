@@ -36,7 +36,14 @@ const Home = () => {
       title: 'High-Durability PET Bottles',
       subtitle: 'Premium Blow Moulding',
       description: 'Elegant, resilient, and fully recyclable PET bottles crafted for retail excellence. Engineered to withstand high pressure while maintaining structural integrity and glass-like clarity.',
-      features: ['Capacity range: 200ml to 5 Litres', 'Custom branding and structural layouts', 'Excellent barrier protection properties', 'Ergonomic grips & light-weight design'],
+      features: ['Capacity range: 150ml to 5 Litres', 'Custom branding and structural layouts', 'Excellent barrier protection properties', 'Ergonomic grips & light-weight design'],
+      accent: false,
+    },
+    {
+      title: 'Specialty PET Jars & Sanitizers',
+      subtitle: 'Food-Grade & Industrial Packaging',
+      description: 'Elegant specialty honey jars, saunf bottles, turpentine oil containers, and high-durability hand sanitizer bottles engineered to meet strict chemical compliance and food safety standards.',
+      features: ['Capacity range: 50ml to 3 Litres (HSN 39233010)', 'Specialty lines: Honey, Spice, Oil & Turpentine Jars', 'Highly secure leak-proof thread configurations', 'Available in transparent, green, amber & custom tints'],
       accent: false,
     },
   ];
